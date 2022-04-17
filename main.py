@@ -26,7 +26,7 @@ def logout():
 
 
 def main():
-    db_session.global_init("db/blogs.db")
+    db_session.global_init("blogs.db")
     app.run()
 
 
